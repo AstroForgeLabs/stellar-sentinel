@@ -1,6 +1,6 @@
 # Stellar Sentinel
 
-[![CI](https://github.com/SmartCraftGroup/stellar-sentinel/actions/workflows/ci.yml/badge.svg)](https://github.com/SmartCraftGroup/stellar-sentinel/actions/workflows/ci.yml)
+[![CI](https://github.com/AstroForgeLabs/stellar-sentinel/actions/workflows/ci.yml/badge.svg)](https://github.com/AstroForgeLabs/stellar-sentinel/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Go](https://img.shields.io/badge/Go-v1.22%2B-00ADD8.svg)](https://go.dev/)
 [![Drips Wave](https://img.shields.io/badge/Drips-Stellar%20Wave-blue.svg)](https://drips.network)
@@ -62,7 +62,7 @@ version: '3.8'
 
 services:
   sentinel:
-    image: smartcraft/stellar-sentinel:latest
+    image: ghcr.io/astrforgelabs/stellar-sentinel:latest
     environment:
       - HORIZON_URL=https://horizon-testnet.stellar.org
       - TRACKED_ADDRESSES=GA...1,GA...2

@@ -1,0 +1,18 @@
+# Binaries
+stellar-sentinel
+sentinel
+
+# Go build cache artifacts
+*.test
+*.out
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
