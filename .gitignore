@@ -1,6 +1,6 @@
-# Binaries
-stellar-sentinel
-sentinel
+# Binaries (repo root only — never the cmd/sentinel package dir)
+/stellar-sentinel
+/sentinel
 
 # Go build cache artifacts
 *.test
